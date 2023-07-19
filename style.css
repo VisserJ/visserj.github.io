@@ -16,24 +16,28 @@ body {
   color: grey;
   font-size: 172px;
   background-color: white;
+  padding: 0px;
+  margin: 0px;
 }
 .hook {
   position: absolute;
   top: 235px;
   left: 50%;
-  margin-left: -82px;
+  margin-left: -80px;
   width: 100px;
   text-align: center;
   color: #747474;
   font-size: 200px;
+  padding: 0px;
 }
 .knot {
   position: absolute;
-  margin-left: -16px;
+  margin-left: -14px;
   left: 50%;
   top: 500px;
   width: 29px;
   height: 2px;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
+  padding: 0px;
 }
