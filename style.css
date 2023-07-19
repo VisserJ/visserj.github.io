@@ -1,0 +1,39 @@
+body {
+  background-color: #24ACF2;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+.line {
+  position: absolute;
+  top: 0px;
+  margin-left: -1px;
+  left: 50%;
+  width: 2px;
+  height: 500px;
+  text-align: center;
+  color: grey;
+  font-size: 172px;
+  background-color: white;
+}
+.hook {
+  position: absolute;
+  top: 235px;
+  left: 50%;
+  margin-left: -88px;
+  width: 100px;
+  text-align: center;
+  color: #747474;
+  font-size: 200px;
+}
+.knot {
+  position: absolute;
+  margin-left: -11px;
+  left: 50%;
+  top: 510px;
+  width: 20px;
+  height: 2px;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
