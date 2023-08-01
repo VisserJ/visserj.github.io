@@ -3,10 +3,16 @@
  <head>
   <link href="style.css" rel="stylesheet" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- </head>
+</head>
 <body>
  <div class="line"></div>
- <div class="hook"><p>J</p></div>
- <div class="knot"><p></p></div>
+ <div class="hook"></div>
+ <div class="login">
+  <form action="login.html" method="post">
+   <input type="text" id="username" name="username" value="Username" onblur="if (this.value == '') {this.value = 'Username';}" onfocus="if (this.value == 'Username') {this.value = '';}">
+   <input type="password" id="password" name="password" value="notarealpassw"  onblur="if (this.value == '') {this.value = 'notarealpassw';}" onfocus="if (this.value == 'notarealpassw') {this.value = '';}">
+   <input type="submit" value="Login">
+  </form> 
+ </div>
 </body>
 </html>
