@@ -1,7 +1,7 @@
-title: Jeroen's Blog
+title: Visstek
 author:
   name: Jeroen Visser
-description: This is where I write stuff for internet strangers.
+description: My personal space on the internet. This is where I write stuff for total strangers. Feel free to browse.
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
@@ -12,6 +12,11 @@ header_pages:
 minima:
   skin: dark
   social_links:
-    - title: Minima Theme repository at GitHub
+    - title: GitHub
       icon: github
       url: "https://github.com/VisserJ"
+    - title: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/jeroen-visser/"
+
+https://www.linkedin.com/in/jeroen-visser/
