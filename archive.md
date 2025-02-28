@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Archive
+permalink: /archive/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et felis tincidunt, pretium metus eu, hendrerit dui. Mauris maximus est ut nunc mattis fringilla. Quisque a justo in risus congue viverra. Duis auctor posuere vestibulum. Suspendisse tincidunt leo in eleifend molestie. Duis varius porttitor ligula euismod lacinia. Fusce lobortis mauris ipsum, at commodo ipsum porta vel. Donec at pretium sem. Fusce mattis condimentum turpis eu dapibus. Quisque volutpat rutrum diam id sagittis. Quisque pretium lacus sed porta vestibulum. Morbi ornare vulputate ante, ut suscipit ante tincidunt eu. Mauris vitae tortor sed neque viverra dignissim.
