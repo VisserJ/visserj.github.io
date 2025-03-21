@@ -16,7 +16,7 @@ Not sure how you ended up here but welcome to my personal page. Visit the [about
 
 Projects I'm working on (or have worked on):
 
-- [Project 1](https://this.is.not.a.real.site)
-- [Project 2](https://this.is.not.a.real.site)
-- [Project 3](https://this.is.not.a.real.site)
-- [Project 4](https://this.is.not.a.real.site)
+- [Project 1](#)
+- [Project 2](#)
+- [Project 3](#)
+- [Project 4](#)
