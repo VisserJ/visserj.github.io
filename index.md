@@ -10,7 +10,7 @@ layout: page
 ---
 # Welcome!
 
-Not sure how you ended up here but welcome to my personal page. If you'd like to know more about me, I suggest visiting the [about](about) page. If you are looking for a blog post you can try looking over [here](posts). Feel free to browse around!
+Not sure how you ended up here but welcome to my personal page. Visit the [about](about) page to know more about me or try [this](posts) page if you are looking for a blog post. Feel free to browse around!
 
 ## Projects
 
