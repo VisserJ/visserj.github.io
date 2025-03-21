@@ -1,4 +1,4 @@
-title: Home
+title: Visstek
 author:
   name: Jeroen Visser
 description: My personal space on the internet. This is where I write stuff for total strangers. Feel free to browse.
@@ -8,7 +8,7 @@ plugins:
   - jekyll-seo-tag
 header_pages:
   - about.md
-  - archive.md
+  - posts.md
 
 minima:
   skin: dark
