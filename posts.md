@@ -4,6 +4,60 @@ title: Posts
 permalink: /posts/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et felis tincidunt, pretium metus eu, hendrerit dui. Mauris maximus est ut nunc mattis fringilla. Quisque a justo in risus congue viverra. Duis auctor posuere vestibulum. Suspendisse tincidunt leo in eleifend molestie. Duis varius porttitor ligula euismod lacinia. Fusce lobortis mauris ipsum, at commodo ipsum porta vel. Donec at pretium sem. Fusce mattis condimentum turpis eu dapibus. Quisque volutpat rutrum diam id sagittis. Quisque pretium lacus sed porta vestibulum. Morbi ornare vulputate ante, ut suscipit ante tincidunt eu. Mauris vitae tortor sed neque viverra dignissim.
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-Cras elementum ligula purus, nec vestibulum velit condimentum in. Praesent et velit non leo suscipit condimentum sit amet a est. Fusce id vulputate tortor. Quisque vestibulum purus non ex viverra, at vestibulum purus fermentum. Nunc posuere lectus sed leo aliquam consectetur. Nullam consectetur varius urna, a laoreet nunc luctus vel. Mauris nec purus elementum diam congue rutrum. Maecenas elementum odio ut magna finibus fermentum. Fusce luctus quam nec massa volutpat placerat. Pellentesque mattis tempor nibh vitae fringilla.
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+      <li>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.minima.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>
