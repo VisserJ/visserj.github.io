@@ -17,7 +17,7 @@ Not sure how you ended upo here but welcom to my personal webpage! FGeen free to
 
 These are projects I am working on (or have worked on):
 
-- [Project 1][https://this.is.not.a.real.site]
-- [Project 2][https://this.is.not.a.real.site]
-- [Project 3][https://this.is.not.a.real.site]
-- [Project 4][https://this.is.not.a.real.site]
+- [Project 1](https://this.is.not.a.real.site)
+- [Project 2](https://this.is.not.a.real.site)
+- [Project 3](https://this.is.not.a.real.site)
+- [Project 4](https://this.is.not.a.real.site)
