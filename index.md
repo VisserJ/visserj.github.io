@@ -8,7 +8,6 @@ title: Home
 #
 layout: page
 ---
-
 # Welcome!
 
 Not sure how you ended up here but welcome to my personal web page! Feel free to browse around. If you are looking for a blog post you can try [this](posts) page. 
