@@ -1,7 +1,7 @@
 title: Visstek
 author:
   name: Jeroen Visser
-description: My personal space on the internet. This is where I write stuff for total strangers. Feel free to browse.
+description: My personal space on the internet. This is where I write stuff for total strangers.
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
