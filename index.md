@@ -14,7 +14,7 @@ Not sure how you ended up here but welcome to my personal page. Visit the [about
 
 ## Projects
 
-These are projects I am working on (or have worked on):
+Projects I'm working on (or have worked on):
 
 - [Project 1](https://this.is.not.a.real.site)
 - [Project 2](https://this.is.not.a.real.site)
